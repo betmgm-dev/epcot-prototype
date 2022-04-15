@@ -1,0 +1,23 @@
+.card-header img {
+  margin-right: 12px;
+}
+
+.card-header {
+  font-family: "Kanit";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.competition-header {
+  display: flex;
+}
+
+.market-all {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  color: #475eec;
+  display: flex;
+  align-items: center;
+}

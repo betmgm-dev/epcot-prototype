@@ -1,0 +1,176 @@
+.grid-event {
+  background: #fff;
+  padding: 16px;
+  display: grid;
+  grid-template-areas:
+    "info"
+    "team1"
+    "team2"
+    "details";
+}
+
+.grid-market-header {
+  grid-area: info;
+  display: grid;
+  grid-template-areas: "time spread total money";
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 11px;
+  color: #8b8e95;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.event-time {
+  grid-area: time;
+  color: #303030;
+  text-align: left;
+}
+
+.event-spread,
+.event-total,
+.event-moneyline {
+  max-width: 45px;
+}
+
+.event-spread {
+  grid-area: spread;
+}
+.event-total {
+  grid-area: total;
+}
+.event-moneyline {
+  grid-area: money;
+}
+
+.grid-market-team1-container,
+.grid-market-team2-container {
+  display: grid;
+  grid-template-areas: "team spread total money";
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+
+  grid-gap: 4px;
+
+  margin-bottom: 4px;
+}
+
+.grid-market-team1-container {
+  grid-area: team1;
+}
+
+.event-logo-circle {
+  align-items: center;
+}
+
+.grid-team1,
+.grid-team2 {
+  display: flex;
+  grid-area: team;
+  align-items: center;
+}
+
+.team-info {
+  grid-area: team;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  justify-content: center;
+}
+
+.team-name {
+  font-family: "Kanit";
+  font-weight: 500;
+  font-size: 14px;
+  color: #050505;
+  margin-bottom: 3px;
+}
+
+.team-details {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #8b8e95;
+  font-size: 12px;
+}
+
+.grid-team-spread,
+.grid-team-total,
+.grid-team-money {
+  border-radius: 6px;
+  border: 1px solid #c3c4c7;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 0;
+  max-width: 45px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.grid-team-spread {
+  grid-area: spread;
+}
+
+.grid-team-total {
+  grid-area: total;
+}
+
+.grid-team-money {
+  grid-area: money;
+}
+
+.market-line {
+  font-size: 11px;
+  font-family: "Poppins";
+  color: #c3c4c7;
+  font-weight: 500;
+}
+.market-odds {
+  font-family: "Kanit";
+  font-size: 14px;
+  font-weight: 500;
+  color: #050505;
+}
+
+.grid-market-team2-container {
+  grid-area: team2;
+  padding-bottom: 6px;
+}
+
+.grid-event:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.grid-event:not(:last-child) {
+  border-bottom: 1px solid #f3f4f5;
+}
+
+.grid-market-details {
+  grid-area: details;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ogp-container {
+  background: rgba(214, 188, 104, 0.3);
+  padding: 5px 6px 4px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 11px;
+  color: #050505;
+}
+
+.grid-market-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 11px;
+  color: #475eec;
+}

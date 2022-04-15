@@ -1,0 +1,77 @@
+.event-card {
+  /* height: 168px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  font-family: "Kanit";
+  padding-bottom: 12px;
+}
+
+.card-header {
+  background: #f3f4f5;
+  padding: 10px 14px;
+  color: #000;
+  font-weight: 600;
+  border-radius: 6px 6px 0 0;
+}
+
+.event-logo-circle {
+  border-radius: 50%;
+  background: #f3f4f5;
+  height: 36px;
+  max-width: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.event-logo-circle img {
+  align-self: center;
+}
+
+.event-info {
+  background: #fff;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.market-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.market-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: #050505;
+  display: flex;
+}
+
+.market-details {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 13px;
+  color: #8b8e95;
+}
+
+.top-event-highlight {
+  margin-left: 4.5px;
+}
+
+.event-info svg {
+  fill: #475eec;
+  /* width: 13px;  */
+}
+
+.event-info:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.event-info:not(:last-child) {
+  border-bottom: 1px solid #f3f4f5;
+}

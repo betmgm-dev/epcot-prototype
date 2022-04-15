@@ -1,0 +1,30 @@
+.footer-wrapper {
+  padding: 24px 24px 0;
+}
+
+.footer-license {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  color: #f3f4f5;
+  line-height: 16px;
+}
+
+.footer-logos-container {
+  padding: 25px 0;
+}
+
+.footer-logos-container img {
+  height: 40px;
+  width: auto;
+  margin-right: 16px;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 11px;
+  color: #c3c4c7;
+}
