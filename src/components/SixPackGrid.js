@@ -1,7 +1,7 @@
-import React from 'react'
-import '../styles/SixPackGrid.css'
-import { MdKeyboardArrowRight } from 'react-icons/md'
-
+import React from "react";
+import "../styles/SixPackGrid.css";
+import { MdKeyboardArrowRight } from "react-icons/md";
+// import OGP from "./Sports/OGP";
 
 const EventGrid = (props) => {
   return (
@@ -19,7 +19,7 @@ const EventGrid = (props) => {
           </div>
           <div className="team-info">
             <span className="team-name">{props.name1}</span>
-            <span className="team-details">{props.record1}</span>  
+            <span className="team-details">{props.record1}</span>
           </div>
         </div>
         <div className="grid-team-spread">
@@ -41,7 +41,7 @@ const EventGrid = (props) => {
           </div>
           <div className="team-info">
             <span className="team-name">{props.name2}</span>
-            <span className="team-details">{props.record2}</span>  
+            <span className="team-details">{props.record2}</span>
           </div>
         </div>
         <div className="grid-team-spread">
@@ -57,14 +57,15 @@ const EventGrid = (props) => {
         </div>
       </div>
       <div className="grid-market-details">
-        <div className="ogp-container">ONE GAME PARLAY</div>
+        {/* <OGP /> */}
+        {/* {props.ogp} */}
         <div className="grid-market-total">
           8 Markets
           <MdKeyboardArrowRight />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default EventGrid
+export default EventGrid;

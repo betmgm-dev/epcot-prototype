@@ -1,0 +1,58 @@
+.navbar {
+  font-family: "Poppins";
+  justify-content: space-between;
+  height: 44px;
+}
+
+.navbar-wrapper-left {
+  margin: 8px 0 8px 8px;
+}
+
+.navbar-wrapper-left span {
+  font-weight: 500;
+  font-size: 9px;
+  color: #fff;
+  line-height: 13.5px;
+}
+
+.brand-logo {
+  width: 88px;
+}
+
+.rg-logo {
+  margin-left: 6px;
+  height: 18px;
+  width: 18px;
+}
+
+.navbar-wrapper-right {
+  margin: 6px 0;
+  gap: 8px;
+}
+
+.bonus-info {
+  border: 1px solid #585963;
+  text-align: center;
+  line-height: 1;
+  padding: 5px 12px;
+}
+
+.info-title {
+  font-weight: 500;
+  font-size: 9px;
+  color: #e9d193;
+  margin-bottom: 3px;
+}
+
+.info-amount {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.offers-info {
+  border: 1px solid #585963;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}

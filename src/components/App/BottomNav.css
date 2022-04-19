@@ -1,0 +1,32 @@
+.bottom-nav {
+  /* height: 62px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* margin: 0 24px; */
+  padding: 8px 0;
+  position: sticky;
+  bottom: 0;
+  background: #050505;
+}
+
+.bottom-nav-col img {
+  height: 24px;
+}
+
+.bottom-nav-col {
+  font-family: "Kanit";
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #c3c4c7;
+}
+
+.bottom-nav-col.active {
+  color: #fff;
+}
+
+.bottom-nav-account-total {
+  font-size: 15px;
+  align-self: center;
+}

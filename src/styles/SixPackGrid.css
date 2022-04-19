@@ -1,4 +1,4 @@
-.grid-event {
+/* .grid-event {
   background: #fff;
   padding: 16px;
   display: grid;
@@ -7,9 +7,9 @@
     "team1"
     "team2"
     "details";
-}
+} */
 
-.grid-market-header {
+/* .grid-market-header {
   grid-area: info;
   display: grid;
   grid-template-areas: "time spread total money";
@@ -20,31 +20,11 @@
   color: #8b8e95;
   text-align: center;
   margin-bottom: 8px;
-}
+} */
 
-.event-time {
-  grid-area: time;
-  color: #303030;
-  text-align: left;
-}
+/*  */
 
-.event-spread,
-.event-total,
-.event-moneyline {
-  max-width: 45px;
-}
-
-.event-spread {
-  grid-area: spread;
-}
-.event-total {
-  grid-area: total;
-}
-.event-moneyline {
-  grid-area: money;
-}
-
-.grid-market-team1-container,
+/* .grid-market-team1-container,
 .grid-market-team2-container {
   display: grid;
   grid-template-areas: "team spread total money";
@@ -57,13 +37,13 @@
 
 .grid-market-team1-container {
   grid-area: team1;
-}
+} */
 
-.event-logo-circle {
+/* .event-logo-circle {
   align-items: center;
-}
+} */
 
-.grid-team1,
+/* .grid-team1,
 .grid-team2 {
   display: flex;
   grid-area: team;
@@ -91,9 +71,9 @@
   font-weight: 400;
   color: #8b8e95;
   font-size: 12px;
-}
+} */
 
-.grid-team-spread,
+/* .grid-team-spread,
 .grid-team-total,
 .grid-team-money {
   border-radius: 6px;
@@ -118,9 +98,9 @@
 
 .grid-team-money {
   grid-area: money;
-}
+} */
 
-.market-line {
+/* .market-line {
   font-size: 11px;
   font-family: "Poppins";
   color: #c3c4c7;
@@ -131,14 +111,14 @@
   font-size: 14px;
   font-weight: 500;
   color: #050505;
-}
+} */
 
-.grid-market-team2-container {
+/* .grid-market-team2-container {
   grid-area: team2;
   padding-bottom: 6px;
-}
+} */
 
-.grid-event:last-child {
+/* .grid-event:last-child {
   border-radius: 0 0 6px 6px;
 }
 
@@ -150,9 +130,9 @@
   grid-area: details;
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.ogp-container {
+/* .ogp-container {
   background: rgba(214, 188, 104, 0.3);
   padding: 5px 6px 4px;
   border-radius: 4px;
@@ -163,9 +143,9 @@
   font-weight: 500;
   font-size: 11px;
   color: #050505;
-}
+} */
 
-.grid-market-total {
+/* .grid-market-total {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,4 +153,4 @@
   font-weight: 500;
   font-size: 11px;
   color: #475eec;
-}
+} */

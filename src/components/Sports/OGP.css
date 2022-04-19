@@ -1,0 +1,12 @@
+.ogp-container {
+  background: rgba(214, 188, 104, 0.3);
+  padding: 5px 6px 4px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 11px;
+  color: #050505;
+}
