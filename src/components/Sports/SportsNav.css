@@ -1,0 +1,39 @@
+.sports-nav {
+  height: 44px;
+  overflow: scroll;
+  margin: 8px 0 8px 8px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  gap: 8px;
+}
+
+.sports-nav .btn:last-child {
+  margin-right: 8px;
+}
+
+.sports-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-live {
+  padding-right: 4px;
+}
+
+.btn-live svg {
+  animation: blinker 3s linear infinite;
+}
+
+.live-ticker {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 2px 7px;
+  color: #d55050;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

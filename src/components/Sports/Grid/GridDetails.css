@@ -1,0 +1,23 @@
+.grid-market-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 11px;
+  color: #475eec;
+}
+
+.grid-event:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.grid-event:not(:last-child) {
+  border-bottom: 1px solid #f3f4f5;
+}
+
+.grid-market-details {
+  grid-area: details;
+  display: flex;
+  justify-content: space-between;
+}

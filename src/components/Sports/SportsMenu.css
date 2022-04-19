@@ -1,0 +1,27 @@
+.sports-menu {
+  height: 44px;
+  color: #fff;
+  font-family: "Poppins";
+  gap: 8px;
+}
+
+.sports-competition-menu svg {
+  fill: #fff;
+  margin-right: 4px;
+}
+
+.sports-competition-menu,
+.search-bar {
+  background: #303030;
+  border-radius: 16px;
+  margin: 6px 0;
+  padding: 8px 12px;
+}
+
+.sports-menu span {
+  font-size: 13px;
+}
+
+.search-bar {
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+.marquee-card-promo {
+  background: urL("https://scmedia.itsfogo.com/$-$/2d538b0837424b39b9fb79440fde7f04.png")
+    no-repeat left/cover;
+  font-family: "GT America";
+  font-weight: 700;
+  font-size: 16px;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  padding: 16px 0 16px 16px;
+}
+
+.marquee-promo-info {
+  width: 162px;
+}
+
+.marquee-promo-header {
+  background: -webkit-linear-gradient(
+    134.55deg,
+    #e9d193 -42.01%,
+    #d4b962 83.39%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.marquee-promo-body {
+  color: #fff;
+}
+
+.marquee-card-promo .btn {
+  margin-right: auto;
+}
