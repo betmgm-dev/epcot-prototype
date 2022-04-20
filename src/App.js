@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import LoginDuration from "./components/LoginDuration";
+import "./Fonts.css";
+import LoginDuration from "./components/App/LoginDuration";
 import Navbar from "./components/App/Navbar";
 import SportsMenu from "./components/Sports/SportsMenu";
 import SportsNav from "./components/Sports/SportsNav";
